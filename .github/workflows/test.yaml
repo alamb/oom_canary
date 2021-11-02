@@ -25,7 +25,7 @@ on:
 jobs:
 
   basic-checks:
-    name: MIRI
+    name: Normal test
     runs-on: ubuntu-latest
     strategy:
       matrix:
