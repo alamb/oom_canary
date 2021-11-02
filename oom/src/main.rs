@@ -16,7 +16,6 @@ mod tests {
         // allocate 32GB of memory and hope for the best
         println!("Starting to allocate {}", MEMORY_LIMIT);
         let mut t : Vec<usize> = vec![];
-
         let a = vec![0; 100000];
 
         println!("Allocated; Starting to write {}", MEMORY_LIMIT);
